@@ -21,9 +21,9 @@ try:
 
     login = driver.find_element(By.XPATH, "/html/body/div[1]/div[2]/ul/li[4]/a[1]").click()
 
-    username = driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/div/div[2]/form/input[1]").send_keys("07571746006992")
+    username = driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/div/div[2]/form/input[1]").send_keys("CNPJ")
     pyautogui.press("tab")
-    pyautogui.write("MGVIDR")
+    pyautogui.write("SENHA")
 
     submit = driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/div/div[2]/form/input[4]").click()
     print("Realizado Login, Site aberto!")
